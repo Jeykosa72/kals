@@ -1,0 +1,13 @@
+{
+    "name": "hana/kals-florist",
+    "description": "Simple MVC Florist App",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
